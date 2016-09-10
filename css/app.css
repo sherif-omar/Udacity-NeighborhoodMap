@@ -1,0 +1,53 @@
+
+html,
+body {
+    height: 100%;
+	margin:0;
+	padding:0;
+}
+
+.search {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.40);
+    margin-left: 10px;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.location-list {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.40);
+    float: right;
+	margin-top:30px;
+}
+.location-list ul{
+    margin-left:10px; 
+    color: #FFF;
+	font-weight:bold;
+    list-style: lower-latin inside;
+}
+.location-list .closes, .location-list .reset {
+width: 30%;
+margin-left: 10px;
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
